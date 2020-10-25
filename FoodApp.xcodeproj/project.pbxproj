@@ -13,6 +13,8 @@
 		21BC9EEB25400CF700A6A2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC9EE925400CF700A6A2F7 /* Main.storyboard */; };
 		21BC9EED25400CF800A6A2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BC9EEC25400CF800A6A2F7 /* Assets.xcassets */; };
 		21BC9EF025400CF800A6A2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC9EEE25400CF800A6A2F7 /* LaunchScreen.storyboard */; };
+		21BC9EF925400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */; };
+		21BC9EFD2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		21BC9EEC25400CF800A6A2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BC9EEF25400CF800A6A2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BC9EF125400CF800A6A2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "chineseFoodLookUp 1.mlmodel"; sourceTree = "<group>"; };
+		21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "chineseFoodLookUp 3.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				21BC9EEC25400CF800A6A2F7 /* Assets.xcassets */,
 				21BC9EEE25400CF800A6A2F7 /* LaunchScreen.storyboard */,
 				21BC9EF125400CF800A6A2F7 /* Info.plist */,
+				21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */,
+				21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */,
 			);
 			path = FoodApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21BC9EE825400CF700A6A2F7 /* ViewController.swift in Sources */,
+				21BC9EF925400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel in Sources */,
 				21BC9EE425400CF700A6A2F7 /* AppDelegate.swift in Sources */,
+				21BC9EFD2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel in Sources */,
 				21BC9EE625400CF700A6A2F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PYJY.lanjin.FoodApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanjin.FoodApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +320,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PYJY.lanjin.FoodApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanjin.FoodApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
