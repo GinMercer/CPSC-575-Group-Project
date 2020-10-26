@@ -15,6 +15,7 @@
 		21BC9EF025400CF800A6A2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BC9EEE25400CF800A6A2F7 /* LaunchScreen.storyboard */; };
 		21BC9EF925400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */; };
 		21BC9EFD2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */; };
+		21BC9F00254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21BC9EFF254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		21BC9EF125400CF800A6A2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "chineseFoodLookUp 1.mlmodel"; sourceTree = "<group>"; };
 		21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "chineseFoodLookUp 3.mlmodel"; sourceTree = "<group>"; };
+		21BC9EFF254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "chineseFoodLookUp 4.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				21BC9EF125400CF800A6A2F7 /* Info.plist */,
 				21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */,
 				21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */,
+				21BC9EFF254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel */,
 			);
 			path = FoodApp;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				21BC9EE825400CF700A6A2F7 /* ViewController.swift in Sources */,
 				21BC9EF925400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel in Sources */,
+				21BC9F00254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel in Sources */,
 				21BC9EE425400CF700A6A2F7 /* AppDelegate.swift in Sources */,
 				21BC9EFD2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel in Sources */,
 				21BC9EE625400CF700A6A2F7 /* SceneDelegate.swift in Sources */,
