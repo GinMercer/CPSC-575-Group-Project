@@ -12,9 +12,11 @@ import Vision
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var webView: UIWebView!
     
     let imagePicker = UIImagePickerController()
-    
+    var urlString = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,6 +61,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             if let firstResult = results.first{
                 if firstResult.identifier.contains("Laoganma"){
                     self.navigationItem.title = "Laoganma"
+                    self.urlString = "Laoganma"
+                    self.searchTextOnGoogle(self.urlString)
+                   
                 }else if firstResult.identifier.contains("Zhimajiang"){
                     self.navigationItem.title = "Zhimajiang"
                 }else if firstResult.identifier.contains("Zhen Jiang Xiang Cu"){
@@ -81,6 +86,49 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
        
         
         
+    }
+    
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//
+//        guard let urlString = urlTextField.text else { return true }
+//
+//        if urlString.starts(with: "http://") || urlString.starts(with: "https://") {
+//            loadUrl(urlString)
+//        } else if urlString.contains(“www”) {
+//            loadUrl("http://\(urlString)")
+//        } else {
+//            searchTextOnGoogle(urlString)
+//        }
+//
+//        textField.resignFirstResponder()
+//        //...
+//
+//        return true
+//    }
+
+    func loadUrl(_ urlString: String) {
+        guard let url = URL(string: urlString) else { return }
+
+        let urlRequest = URLRequest(url: url)
+        
+        webView.loadRequest(urlRequest)
+      //  webView.load(urlRequest)
+    }
+
+    func searchTextOnGoogle(_ text: String){
+        // check if text contains more then one word separated by space
+        let textComponents = text.components(separatedBy: " ")
+
+        // we replace space with plus to validate the string for the search url
+        let searchString = textComponents.joined(separator: "+")
+
+        guard let url = URL(string: "https://www.google.com/search?q=" + searchString) else { return }
+
+        let urlRequest = URLRequest(url: url)
+        
+        print(urlRequest)
+        webView.loadRequest(urlRequest)
+       // webView.load(urlRequest)
     }
     
     
