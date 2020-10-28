@@ -16,9 +16,12 @@
 		21BC9EF925400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */; };
 		21BC9EFD2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */; };
 		21BC9F00254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21BC9EFF254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel */; };
+		21BC9F032549F26A00A6A2F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21BC9F022549F26A00A6A2F7 /* GoogleService-Info.plist */; };
+		BA175C6E2720F2A620382263 /* Pods_FoodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C3CB030D3C1EAE0112A82C /* Pods_FoodApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07C3CB030D3C1EAE0112A82C /* Pods_FoodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BC9EE025400CF700A6A2F7 /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BC9EE325400CF700A6A2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21BC9EE525400CF700A6A2F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "chineseFoodLookUp 1.mlmodel"; sourceTree = "<group>"; };
 		21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "chineseFoodLookUp 3.mlmodel"; sourceTree = "<group>"; };
 		21BC9EFF254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "chineseFoodLookUp 4.mlmodel"; sourceTree = "<group>"; };
+		21BC9F022549F26A00A6A2F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82E0FB3EDE1F8F64F4DE9218 /* Pods-FoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodApp/Pods-FoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B5918CA0D6732691FA5AD538 /* Pods-FoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp.release.xcconfig"; path = "Target Support Files/Pods-FoodApp/Pods-FoodApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA175C6E2720F2A620382263 /* Pods_FoodApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,8 @@
 			children = (
 				21BC9EE225400CF700A6A2F7 /* FoodApp */,
 				21BC9EE125400CF700A6A2F7 /* Products */,
+				824F4C170F40CF792304C2A4 /* Pods */,
+				AF9E99F8AA3EC5B5D0EF099F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,11 +78,30 @@
 				21BC9EEC25400CF800A6A2F7 /* Assets.xcassets */,
 				21BC9EEE25400CF800A6A2F7 /* LaunchScreen.storyboard */,
 				21BC9EF125400CF800A6A2F7 /* Info.plist */,
+				21BC9F022549F26A00A6A2F7 /* GoogleService-Info.plist */,
 				21BC9EF825400D4700A6A2F7 /* chineseFoodLookUp 1.mlmodel */,
 				21BC9EFC2540B97100A6A2F7 /* chineseFoodLookUp 3.mlmodel */,
 				21BC9EFF254567D900A6A2F7 /* chineseFoodLookUp 4.mlmodel */,
 			);
 			path = FoodApp;
+			sourceTree = "<group>";
+		};
+		824F4C170F40CF792304C2A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82E0FB3EDE1F8F64F4DE9218 /* Pods-FoodApp.debug.xcconfig */,
+				B5918CA0D6732691FA5AD538 /* Pods-FoodApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF9E99F8AA3EC5B5D0EF099F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C3CB030D3C1EAE0112A82C /* Pods_FoodApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21BC9EF425400CF800A6A2F7 /* Build configuration list for PBXNativeTarget "FoodApp" */;
 			buildPhases = (
+				71B7D2CAAF08084A12DFA88B /* [CP] Check Pods Manifest.lock */,
 				21BC9EDC25400CF700A6A2F7 /* Sources */,
 				21BC9EDD25400CF700A6A2F7 /* Frameworks */,
 				21BC9EDE25400CF700A6A2F7 /* Resources */,
+				E22C1FFD2622577C678F3E4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,12 +164,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				21BC9EF025400CF800A6A2F7 /* LaunchScreen.storyboard in Resources */,
+				21BC9F032549F26A00A6A2F7 /* GoogleService-Info.plist in Resources */,
 				21BC9EED25400CF800A6A2F7 /* Assets.xcassets in Resources */,
 				21BC9EEB25400CF700A6A2F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71B7D2CAAF08084A12DFA88B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22C1FFD2622577C678F3E4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodApp/Pods-FoodApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodApp/Pods-FoodApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodApp/Pods-FoodApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21BC9EDC25400CF700A6A2F7 /* Sources */ = {
@@ -295,6 +368,7 @@
 		};
 		21BC9EF525400CF800A6A2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E0FB3EDE1F8F64F4DE9218 /* Pods-FoodApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +388,7 @@
 		};
 		21BC9EF625400CF800A6A2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5918CA0D6732691FA5AD538 /* Pods-FoodApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
